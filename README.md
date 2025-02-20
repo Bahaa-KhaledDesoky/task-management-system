@@ -49,7 +49,7 @@ Welcome to the **Task Management System**! 🎯 This powerful backend API helps 
 | Method | Endpoint | Description |
 |--------|---------|-------------|
 | POST | `/auth/register` | Register a new user |
-| POST | `/auth/login` | Login and receive JWT token |
+| POST | `/auth/login` | Login and receive JWT token (Access token && Refresh token) |
 
 ### 📂 Project Management
 | Method | Endpoint | Description |
