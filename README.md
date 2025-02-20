@@ -29,8 +29,20 @@ Welcome to the **Task Management System**! 🎯 This powerful backend API helps 
    ```sh
    mvn spring-boot:run
    ```
-
-4. **Access API via Postman or Frontend**
+4. **Set up the database**  
+Make sure **MySQL** is running and create a database:  
+```sql
+CREATE DATABASE task_management;
+```
+5. **Configure environment variables**  
+Create an `.env` or update `application.properties`:  
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/task_management
+spring.datasource.username=root
+spring.datasource.password=yourpassword
+jwt.secret=your-secret-key
+```
+6. **Access API via Postman or Frontend**
    - Base URL: `http://localhost:8080/api`
 
 ---
@@ -99,4 +111,5 @@ This project is licensed under the **MIT License**.
 ---
 
 💡 *Happy Coding!* 💡 🚀
+
 
